@@ -12,7 +12,7 @@ class Storage {
   removeItem(item) {
     this.#items.forEach(element => {
       if (element === item) {
-        const index = this.items.indexOf(element);
+        const index = this.#items.indexOf(element);
         this.#items.splice(index, 1);
       }
     });
