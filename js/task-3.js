@@ -1,7 +1,8 @@
 class StringBuilder {
   #value;
+
   constructor(initialValue) {
-    this.value = initialValue;
+    this.#value = initialValue;
   }
 
   getValue() {
